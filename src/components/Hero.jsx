@@ -6,12 +6,16 @@ const Hero = () => {
   return (
     <header className='w-full flex justify-center items-center flex-col'>
       <nav className='flex justify-between items-center w-full mb-10 pt-3'>
-        <img src={logo} alt='sumz_logo' className='w-28 object-contain' />
+        {/* <img src={logo} alt='sumz_logo' className='w-28 object-contain' /> */}
+        <h3 className="text-2xl font-bold text-orange-500  tracking-wide hover:text-orange-600 transition-colors duration-300">
+        Summize
+</h3>
+
 
         <button
           type='button'
           onClick={() =>
-            window.open("https://github.com/TidbitsJS/Summize", "_blank")
+            window.open("https://github.com/SahilKulkarni10", "_blank")
           }
           className='black_btn'
         >
